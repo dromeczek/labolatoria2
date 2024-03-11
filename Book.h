@@ -11,7 +11,7 @@ private:
 
 public:
     Book(string m_title, string m_author, string m_isbn);
-    ~Book(); // Destruktor
+    ~Book();
     string getTitle();
     string getAuthor();
     string getIsbn();
